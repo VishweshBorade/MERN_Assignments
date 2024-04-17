@@ -12,11 +12,6 @@ function generatePass(){
 }
 console.log(generatePass());
 
-// function copyPassword() {
-//     var copyText = document.getElementById("pass");
-//     copyText.select();
-//     document.execCommand("copy");
-//   }
 function copyPassword() {
     var copyText = document.getElementById("spc").value;
 
